@@ -1,0 +1,74 @@
+.formStyle {
+  margin: auto;
+
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.formElement {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitBtn {
+  margin: 5px auto 5px auto;
+
+  padding: 20px;
+
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #f76c6c;
+  cursor: pointer;
+}
+
+.skillAndGradeElements > * {
+  margin-right: 20px;
+}
+
+.label {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f76c6c;
+}
+
+.skillAndGradeElements {
+  display: flex;
+}
+
+.skillAndGradeElements {
+  margin-top: 10px;
+}
+
+.addSkillBtn {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #f76c6c;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.skillAdded {
+  margin-top: 10px;
+}
+
+.skillAdded > * {
+  margin-right: 10px;
+}
+
+.deleteSkillBtn {
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  text-transform: uppercase;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 10px;
+}
