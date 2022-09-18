@@ -1,11 +1,26 @@
 .formStyle {
   margin: auto;
-
-  height: 50vh;
+  margin-bottom: 50px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.btnManageSkillContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btnManageSkill {
+  padding: 5px;
+  background-color: #0275d8;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 .formElement {
@@ -16,12 +31,12 @@
 .submitBtn {
   margin: 5px auto 5px auto;
 
-  padding: 20px;
+  padding: 10px;
 
   border: none;
   color: white;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 10px;
   background-color: #f76c6c;
   cursor: pointer;
@@ -55,12 +70,23 @@
   border-radius: 10px;
 }
 
-.skillAdded {
+.skillAddedContainer {
   margin-top: 10px;
+  display: flex;
+  align-items: center;
 }
 
-.skillAdded > * {
+.skillAddedContainer > * {
   margin-right: 10px;
+}
+
+.skillsAdded li {
+  margin: 4px 0;
+  display: flex;
+  justify-content: space-around;
+  border: #f76c6c 1px solid;
+  border-radius: 4px;
+  padding: 2px;
 }
 
 .deleteSkillBtn {
@@ -68,7 +94,32 @@
   padding: 5px;
   color: white;
   text-transform: uppercase;
-  background-color: red;
+  background-color: #d9534f;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 1px solid black;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #c9c9c9;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.skillsAdded {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 10%;
+}
+
+.skillsLi {
+  margin: 4px 0;
+  display: flex;
+  justify-content: space-around;
+  border: #F76C6C 1px solid;
+  border-radius: 4px;
+  padding: 2px;
 }
